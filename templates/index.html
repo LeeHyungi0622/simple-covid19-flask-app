@@ -1,0 +1,20 @@
+{% extends "layout.html" %} 
+{% block content %}
+<h1><ins>COVID-19 Data Scraping w/Beautiful Soup</ins></h1>
+<div class="data_container">
+    <table id="data_table">
+        <tr>
+            <th>date</th>
+            <th># of cases</th>
+            <th># of death</th>
+        </tr>
+        {% for data in table_data %}
+        <tr align="center">
+            <td>{{ data['date'] }}</td>
+            <td>{{ data['cases'] }}</td>
+            <td>{{ data['death'] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+{% endblock %}
