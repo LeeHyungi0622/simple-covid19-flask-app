@@ -24,7 +24,7 @@ https://apiv2.corona-live.com/updates.json?timestamp=1613547340934
 
 # **Project Status**
 
-🗓️ 2021.02.06(Sat) <br/>
+🗓️ 2021.02.18(Thu) <br/>
 **(1) Issue1)** Flask 프로젝트의 기본 환경구축 <br/>
 → [https://github.com/LeeHyungi0622/simple-covid19-flask-app/issues/1](https://github.com/LeeHyungi0622/simple-covid19-flask-app/issues/1) <br/>
 
