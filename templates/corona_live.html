@@ -1,0 +1,25 @@
+{% extends "layout.html" %} {% block content %}
+<h1><ins>Corona Live JSON format data</ins></h1>
+<table id="corona_live_tbl">
+    <tr>
+        <th>상세내용</th>
+        <th>시간정보</th>
+        <th>감염자수 건수</th>
+        <th>도시 구분 번호</th>
+        <th>구 구분 번호</th>
+        <th>총계</th>
+    </tr>
+    {% for data in json_data %}
+    <tr>
+        <td>
+            {{ data['src'] }}
+        </td>
+        <td>{{ data['datetime'] }}</td>
+        <td>{{ data['cases'] }}</td>
+        <td>{{ data['city'] }}</td>
+        <td>{{ data['gu'] }}</td>
+        <td>{{ data['total'] }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}
