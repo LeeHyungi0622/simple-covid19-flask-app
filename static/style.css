@@ -1,12 +1,38 @@
 .data_container {
-    width: 500px;
-    height: 300px;
+    display: flex;
+    width: 80vw;
+    height: 100vh;
 }
 
-#data_table {
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+#data_tbl {
     width: 100%;
     height: 100%;
-    background-color: aquamarine;
     justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+#corona_live_tbl {
+    width: 100%;
+    height: 100%;
+    background-color: thistle;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul .menu {
+    display: flex;
+    flex-direction: column;
+}
+
+ul .menu li {
     align-items: center;
 }
