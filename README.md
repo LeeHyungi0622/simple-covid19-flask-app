@@ -33,3 +33,22 @@ https://apiv2.corona-live.com/updates.json?timestamp=1613547340934
 
 **(3) Issue3)** Web API의 JSON형식의 데이터를 읽고 가공한다. <br/>
 → [https://github.com/LeeHyungi0622/simple-covid19-flask-app/issues/3](https://github.com/LeeHyungi0622/simple-covid19-flask-app/issues/3)
+
+## **Screen shots**
+
+`(static/style.css) Flask에서 업데이트된 CSS 스타일 적용이 잘 안되서 적용안된 데이터 출력 캡쳐만 첨부합니다.`
+
+<table>
+    <tr>
+        <td>
+            <img src="img/210218_beautiful_soup_data_scrap.png" width=450 height=300/>
+        </td>
+        <td>
+            <img src="img/210218_corona_live_json_data.png" width=450 height=300/>
+        </td>
+    </tr>
+    <tr>
+        <td align="center"><b>Practice 1</b></td>
+        <td align="center"><b>Practice 2</b></td>
+    </tr>
+</table>
